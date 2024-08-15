@@ -1,0 +1,1729 @@
+@font-face {
+  font-family: 'SF UI Text';
+  src: url('../fonts/SFUIText-Medium.woff2') format('woff2'),
+    url('../fonts/SFUIText-Medium.woff') format('woff'),
+    url('../fonts/SFUIText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/*modal css end*/
+
+/* header css start */
+
+.header {
+  position: absolute;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #000000;
+  margin: 15px;
+  font-size: 15px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+a.nav-link.active {
+  color: #000000;
+  font-weight: 600;
+}
+
+.nav_glass a {
+  background-color: #2F76E1;
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.nav_glass a:hover {
+  background-color: transparent;
+  color: #2F76E1;
+  border: 1px solid #2F76E1;
+}
+
+
+.logo1 {
+  width: 130px;
+  animation: wobble 8s ease-in-out infinite normal;
+}
+
+/* header css end */
+
+/* home css start */
+.home1 {
+  background-image: url(../images/pic.png);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 80px 80px 80px;
+}
+
+.home2 {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home3 {
+  margin-left: 45px;
+}
+.active1 .dash3 p {
+    color: #2f76e1;
+}
+.home3 h4 {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'SF UI Text', sans-serif;
+  line-height: 2;
+}
+
+.home3 h2 {
+  color: #000000;
+  font-size: 43px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.home3 p {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home4 {
+  margin-top: 30px;
+}
+
+.home4 a {
+  background-color: #2F76E1;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'SF UI Text', sans-serif;
+  padding: 15px 25px;
+  border-radius: 10px;
+  transition: all 400ms ease-in-out;
+  display: block;
+  width: 45%;
+}
+
+.home4 a:hover {
+  animation: pulse 1s infinite linear;
+}
+
+@keyframes pulse {
+  25% {
+    transform: scale(1.1);
+  }
+
+  75% {
+    transform: scale(.9);
+  }
+}
+
+.home5 video {
+  border-radius: 10px;
+}
+
+.home6 {
+  font-weight: bold;
+}
+
+.home7 {
+  background-color: #ffffff;
+  padding: 80px;
+}
+
+.home8 {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home10 {
+  margin-left: 40px;
+}
+
+.home10 h4 {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'SF UI Text', sans-serif;
+  line-height: 2;
+}
+
+.home10 h2 {
+  color: #000000;
+  font-size: 43px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.home10 p {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home11 {
+  margin-top: 30px;
+}
+
+.home11 a {
+  background-color: #2F76E1;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'SF UI Text', sans-serif;
+  padding: 15px 25px;
+  border-radius: 10px;
+  transition: all 400ms ease-in-out;
+  display: block;
+  width: 45%;
+}
+
+.home11 a:hover {
+  animation: pulse 1s infinite linear;
+}
+
+@keyframes pulse {
+  25% {
+    transform: scale(1.1);
+  }
+
+  75% {
+    transform: scale(.9);
+  }
+}
+
+.home12 {
+  background-image: url(../images/pic.png);
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0px 30px 80px;
+  position: relative;
+  margin: 100px 0px;
+}
+
+.home13 {
+  margin-left: 85px;
+}
+
+.home13 h2 {
+  color: #000000;
+  font-size: 44px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.home13 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+
+.home14 {
+  align-items: center;
+  justify-content: end;
+}
+
+
+#slider1 {
+  position: absolute;
+  top: -85px;
+}
+
+.home15 {
+  margin-left: 35px;
+}
+
+.home15 h2 {
+  color: #000000;
+  font-size: 36px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.home15 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  width: 82%;
+}
+
+.home16 {
+  background-image: url(../images/pic.png);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 50px 50px 50px;
+  position: relative;
+  margin: 100px 0px;
+}
+
+.home17 {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home18 {
+  position: absolute;
+  top: -60px;
+}
+
+.home18 img {
+  width: 600px;
+  animation: pulse 6s ease-in-out infinite normal;
+}
+
+.home19 {
+  margin-left: 35px;
+}
+
+.home19 h2 {
+  color: #000000;
+  font-size: 44px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.home19 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  width: 82%;
+}
+
+.home20 {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.home21 h2 {
+  color: #000000;
+  font-size: 50px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.home21 h6 {
+  color: #000000;
+  font-size: 18px;
+  line-height: 2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.item {
+  position: relative;
+  margin: 35px 20px;
+}
+
+.home22 {
+  background-color: #ffffff;
+  padding: 30px 30px 20px 30px;
+  border-radius: 10px;
+  border: 1px solid #e0dfdf;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.home22 p {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home23 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.home23 img {
+  width: 15%;
+}
+
+.home23 p {
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home24 {
+  position: absolute;
+  top: -35px;
+  left: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  display: none !important;
+}
+
+.owl-theme .owl-nav {
+  position: absolute;
+  top: -120px;
+  right: 10px;
+}
+
+
+/* home css end */
+
+
+/* about us css start */
+.about1 {
+  background-image: url(../images/about1.png);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 80px 80px 80px;
+}
+
+.about2 h2 {
+  color: #000000;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 2;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.breadcrumb {
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+
+.breadcrumb-item a {
+  color: #000000;
+}
+
+.about3 {
+  background-color: #F9F9F9;
+  padding: 80px;
+}
+
+.about4 {
+  justify-content: center;
+  align-items: center;
+}
+
+.about5 h2 {
+  font-size: 40px;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+  line-height: 2;
+}
+
+.about5 p {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+}
+
+.about6 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about6 h2 {
+  font-size: 65px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+}
+
+.about6 p {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  width: 45%;
+  margin-bottom: 0px;
+}
+
+.about7 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about8 img {
+  width: 70px;
+}
+
+.about9 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.about9 p {
+  font-size: 14px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+}
+
+
+.about10 {
+  background-color: #ffffff;
+  padding: 80px;
+}
+
+.about11 {
+  justify-content: center;
+  align-items: center;
+}
+
+.about12 {
+  border: 1px solid #DFF0FC;
+  background-color: #DFF0FC;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.about12 h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+  line-height: 2;
+}
+
+
+.about12 p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* about us css end */
+
+/* faqs css start */
+.faq1 {
+  background-color: #ffffff;
+  padding: 80px;
+}
+
+.faq2 {
+  justify-content: space-between;
+}
+
+.faq3 h4 a {
+  color: #5B5B5B;
+  font-size: 20px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.active1 {
+  color: #2F76E1 !important;
+  font-weight: 600;
+}
+
+.faq4 h2 {
+  color: #2F76E1;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.accordion-button1 {
+  padding: 20px 10px 20px 0px !important;
+}
+
+#About {
+  margin-top: 30px;
+}
+
+#Sign {
+  margin-top: 30px;
+}
+
+#billing {
+  margin-top: 30px;
+}
+
+#shipping {
+  margin-top: 30px;
+}
+
+#other {
+  margin-top: 30px;
+}
+
+/* faqs css end */
+
+/* contact css start */
+.contact1 {
+  background-color: #ffffff;
+  padding: 50px 80px;
+}
+
+.contact2 {
+  justify-content: center;
+  align-items: center;
+}
+
+.contact3 {
+  background-color: #DFF0FC;
+  border-radius: 10px;
+  padding: 80px;
+}
+
+.contact3 h2 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+}
+
+.contact3 p {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  width: 75%;
+}
+
+.contact4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact5 {
+  border-bottom: 1px solid #000000;
+  width: 300px;
+}
+
+.contact6 {
+  border-bottom: 1px solid #000000;
+}
+
+.form-control::placeholder {
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact7 {
+  background-color: #2F76E1;
+  color: #ffffff;
+  padding: 12px 65px;
+  font-size: 15px;
+  font-family: 'SF UI Text', sans-serif;
+  margin-top: 25px;
+}
+
+.contact7:hover {
+  background-color: transparent;
+  color: #2F76E1;
+  border: 1px solid #2F76E1;
+}
+
+.contact8 {
+  background-color: #ffffff;
+  padding: 50px 80px;
+}
+
+.contact9 {
+  justify-content: center;
+}
+
+.contact10 {
+  background-color: #DFF0FC;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact10 i {
+  background-color: #000000;
+  color: #2F76E1;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 25px;
+  width: 50px;
+}
+
+.contact10 h2 {
+  margin-top: 20px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.contact10 p {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+}
+
+.contact11 {
+  background-color: #ffffff;
+  padding: 50px 0px;
+}
+
+.contact12 h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  line-height: 2;
+}
+
+/* contact css end */
+
+/* register css start */
+.reg1 {
+  background-color: #ffffff;
+  padding: 80px;
+}
+
+.reg2 {
+  background-image: url(../images/pic10.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+
+.reg2 h2 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  line-height: 2;
+}
+
+.reg3 {
+  margin-top: 20px;
+}
+
+.reg3 a {
+  background-color: #2F76E1;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'SF UI Text', sans-serif;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 400ms ease-in-out;
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+
+.reg3 a:hover {
+  animation: pulse 1s infinite linear;
+}
+
+.reg3 button {
+  background-color: #2F76E1;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'SF UI Text', sans-serif;
+  padding: 10px 20px;
+  border: 1px solid #2F76E1;
+  border-radius: 10px;
+  transition: all 400ms ease-in-out;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.reg3 button:hover {
+  animation: pulse 1s infinite linear;
+}
+
+.reg4 label {
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.reg4 input {
+  padding: 10px;
+  /* color: #ccc; */
+  border: 1px solid #2F76E1;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* register css end */
+
+/* login css start */
+.login1 {
+  background-color: #ffffff;
+  padding: 80px;
+}
+
+.login2 {
+  background-image: url(../images/pic10.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 40px;
+}
+
+.login3 {
+  padding: 40px;
+}
+
+.login3 h2 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  line-height: 2;
+}
+
+.login4 a {
+  color: #000000;
+}
+
+.login5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login8 {
+  padding: 40px;
+}
+
+.login6 button {
+  background-color: #2F76E1;
+  border: 1px solid #2F76E1;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'SF UI Text', sans-serif;
+  margin: 15px 0px;
+}
+
+.login7 {
+  justify-content: center;
+  align-items: center;
+}
+
+.login9 {
+  display: flex;
+  justify-content: center;
+}
+
+/* login css end */
+
+/* top button css start */
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#button {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #094170;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  font-size: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #094170;
+}
+
+/* top button css end */
+
+/* page loader css start */
+#bg {
+  background-color: #010433;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 99999;
+}
+
+#liquid1-clip,
+#liquid2-clip {
+  transform-origin: 50% 50%;
+}
+
+#liquid1-clip {
+  animation: swingLeft 2s ease-in-out infinite;
+}
+
+#liquid2-clip {
+  animation: swingLeft 2s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+#liquid1 {
+  transform-origin: 50% 50%;
+  animation: liquid1Fill 2s linear infinite;
+}
+
+#liquid2 {
+  transform-origin: 50% 50%;
+  animation: liquid2Fill 2s linear infinite;
+}
+
+#bubble1 {
+  transform-origin: 50% 50%;
+  animation: bubbleRise1 2s linear infinite;
+}
+
+#bubble2 {
+  animation: bubbleRise2 2s linear infinite;
+}
+
+@keyframes liquid1Fill {
+  0% {
+    transform: translate(0px, 180px) scaleX(-1);
+  }
+
+  25% {
+    transform: translate(10px, 144px) scaleX(-2);
+  }
+
+  50% {
+    transform: translate(0px, 108px) scaleX(-3);
+  }
+
+  75% {
+    transform: translate(-10px, 72px) scaleX(-2);
+  }
+
+  100% {
+    transform: translate(0px, 36px) scaleX(-1);
+  }
+}
+
+@keyframes liquid2Fill {
+  0% {
+    transform: translate(-5px, 165px) scaleX(1);
+  }
+
+  25% {
+    transform: translate(-15px, 129px) scaleX(3);
+  }
+
+  50% {
+    transform: translate(-5px, 93px) scaleX(2);
+  }
+
+  75% {
+    transform: translate(5px, 57px) scaleX(2);
+  }
+
+  100% {
+    transform: translate(-5px, 21px) scaleX(1);
+  }
+}
+
+@keyframes bubbleRise1 {
+  from {
+    transform: translate(60px, 280px);
+  }
+
+  to {
+    transform: translate(60px, 100px)
+  }
+}
+
+@keyframes bubbleRise2 {
+  from {
+    transform: translate(125px, 280px) rotate(45deg);
+  }
+
+  to {
+    transform: translate(125px, 85px) rotate(45deg);
+  }
+}
+
+@keyframes swingLeft {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes swingRight {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+/* page loader css end */
+
+/* dashboard HOME css start */
+.dash1 {
+  padding: 150px 100px 0px 0px;
+}
+
+.dash2 {
+  background-color: #DFF0FC;
+  height: 750px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.dash3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+.hr1 {
+  margin: 0px;
+  width: 100%;
+}
+
+.dash3 p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+}
+
+.dash3 img {
+  width: 25px;
+}
+
+.dash4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.dash5 {
+  background-image: url(../images/pic16.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 40px;
+  height: 700px;
+}
+
+.dash6 h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.dash6 p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.dash7 button {
+  background-color: #2F76E1;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid #2F76E1;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.dash7 button:hover {
+  background-color: transparent;
+  color: #2F76E1;
+  border: 1px solid #2F76E1;
+}
+
+
+.dash8 button {
+  background-color: transparent;
+  color: #2F76E1;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid #2F76E1;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.dash8 button:hover {
+  background-color: #2F76E1;
+  color: #ffffff;
+}
+
+.dash9 {
+  margin-top: 40px;
+  position: relative;
+}
+
+.dash10 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.dash11 h2 {
+  font-size: 35px;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+}
+
+.dash11 h4 {
+  font-size: 25px;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+}
+
+.dash12 {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding: 20px;
+}
+
+.dash12 ul {
+  list-style: disc;
+}
+
+.dash12 ul li a {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  /* line-height: 2; */
+}
+
+.dash13 {
+  margin-top: 40px;
+}
+
+.dash13 a {
+  background-color: #2F76E1;
+  padding: 15px 60px;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.dash14 {
+  display: flex;
+}
+
+.dash14 img {
+  margin: 10px;
+  width: 230px;
+}
+
+.dash15 {
+  display: flex;
+  justify-content: end;
+  margin: 10px 35px;
+  gap: 20px;
+}
+
+.dash15 a {
+  background-color: #2F76E1;
+  padding: 8px 25px;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.dash16 {
+  background-image: url(../images/pic16.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  text-align: center;
+  padding: 250px;
+}
+
+.dash16 h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+}
+
+.dash17 {
+  display: flex;
+  justify-content: center;
+}
+
+.dash17 a {
+  background-color: #2F76E1;
+  color: #ffffff;
+  width: 50%;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 14px;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.dash18 {
+  background-image: url(../images/pic16.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px 50px 160px 50px;
+  height: 700px;
+  overflow: auto;
+}
+
+.dash19 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dash19 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+}
+
+.dash20 {
+  display: flex;
+  gap: 20px;
+}
+
+.dash21 {
+  margin-top: 30px;
+}
+
+.dash21 button {
+  width: 100%;
+  margin: 10px 0px;
+  background-color: #DFF0FC;
+  border: 1px solid #DFF0FC;
+  border-radius: 10px;
+  padding: 12px;
+  font-family: 'SF UI Text', sans-serif;
+  text-align: left;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.dash22 {
+  background-image: url(../images/pic16.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px 50px 120px 50px;
+}
+
+.dash23 img {
+  width: 280px;
+}
+
+.dash24 {
+  margin-top: 30px;
+}
+
+.dash24 a {
+  background-color: #2F76E1;
+  color: #ffffff;
+  padding: 12px 150px;
+  font-size: 14px;
+  font-family: 'SF UI Text', sans-serif;
+  border-radius: 10px;
+}
+
+.dash25 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+.dash26 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  transform: rotate(-15deg);
+  margin-top: 100px;
+}
+
+.dash26 h2 {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  margin-top: 20px;
+}
+
+.dash26 a {
+  text-decoration: underline;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.dash34 img {
+  width: 50px;
+}
+
+.dash27 {
+  justify-content: center;
+}
+
+.dash28 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.dash28 img {
+  width: 35px;
+  margin: 5px;
+}
+
+.dash29 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.dash29 h2 {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  margin-top: 20px;
+}
+
+.dash29 a {
+  text-decoration: underline;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+/* .dash29 img {
+  width: 50px;
+} */
+
+.dash30 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  transform: rotate(15deg);
+  margin-top: 100px;
+}
+
+
+.dash30 h2 {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  margin-top: 20px;
+}
+
+.dash30 a {
+  text-decoration: underline;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+/* .dash30 img {
+  width: 50px;
+} */
+
+.dash31 {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.dash32 {
+  background-image: url(../images/pic16.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px 50px 50px 50px;
+}
+
+.dash33 img {
+  width: 230px;
+}
+
+.table {
+  background-color: #EFEFEF;
+  border-radius: 10px;
+}
+
+tr {
+  text-align: center;
+  color: #000000;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+th {
+  color: #000000;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+/* dashboard HOME css start */
+
+
+
+/* profile css start */
+.profile1 {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.profile2 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.profile3 img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.profile4 h2 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+  line-height: 2;
+}
+
+.profile4 h4 {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'SF UI Text', sans-serif;
+}
+
+.profile4 p {
+  color: #000000;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+}
+
+.profile5 {
+  display: flex;
+  gap: 20px;
+}
+
+.profile7 button {
+  background-color: #2F76E1;
+  border: 1px solid #2F76E1;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.profile8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile9 img{
+  width: 265px;
+}
+
+/* profile css end */
+
+/* tab css start */
+.tab-menu {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.tab-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.tab-menu ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+  background-color: #ccc;
+  padding: 7px 25px;
+  border-radius: 4px;
+}
+
+.tab-menu ul li a.active-a {
+  background-color: #2F76E1;
+  color: #ffffff;
+}
+
+.tab {
+  display: none;
+}
+
+.tab h2 {
+  color: rgba(0, 0, 0, .7);
+}
+
+.tab p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: justify;
+}
+
+.tab-active {
+  display: block;
+}
+
+/* tab css end */
+
+/* star rating css start */
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 5px;
+}
+
+.rate:not(:checked)>input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked)>label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+  content: '★ ';
+}
+
+.rate>input:checked~label {
+  color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+  color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+  color: #c59b08;
+}
+
+/* star rating css end */
+
+/* footer css start */
+.footer {
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer1 p {
+  width: 65%;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 2;
+  margin-top: 15px;
+  color: #343434;
+  font-family: 'Poppins', sans-serif;
+}
+
+.social-box li a {
+  margin: 10px 10px 10px 0px;
+  font-size: 20px;
+  color: #343434;
+  border: 2px solid #343434;
+  border-radius: 50%;
+  padding: 10px 13px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer2 li a {
+  color: #343434;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer3 h6 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #343434;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer3 p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #343434;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer4 {
+  margin-top: 100px;
+}
+
+.footer4 h4 {
+  color: #343434;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer5 a img {
+  width: 20%;
+  margin: 10px 0px;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #343434;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* footer css end */
+
+
+/*MODREN CSS end*/
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1445px) and (max-width: 1599px) {}
+
+@media only screen and (min-width: 1400px) and (max-width: 1444px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {}

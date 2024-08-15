@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "818451694352",
+    "project_id": "buynbook-b2a5c",
+    "storage_bucket": "buynbook-b2a5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818451694352:android:33dc0cf355ca33b93e5b95",
+        "android_client_info": {
+          "package_name": "com.buynbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDewdBiY8-garvnHdO5gCFcyP3dmQz-Bs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
